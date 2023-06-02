@@ -1,0 +1,33 @@
+.text-center{
+    text-align: center;
+    color:rgb(234, 83, 13);
+    font-weight: 10;
+}
+.text-center:hover{
+    display:flex ;
+    font-size: 45px;
+    /* transition-duration: 1s; */
+    transition:ease-in 1s;
+    color: rgb(251, 157, 6);
+    border-bottom: 5px solid black;
+    /* width: fit-content; */
+    /* position: relative; */
+    /* text-align: center; */
+    /* align-content: center; */
+    /* justify-content: center; */
+}
+.text-center::after{
+    transition: ease-out 1s;
+}
+.mx-auto{
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.item-center{
+    align-items: center;
+}
